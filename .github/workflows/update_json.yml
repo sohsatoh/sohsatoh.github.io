@@ -1,7 +1,5 @@
 name: update_json
 on:
-  issues:
-    types: [opened, edited, milestoned]
   schedule:
     - cron: "0 * * * *"
 
