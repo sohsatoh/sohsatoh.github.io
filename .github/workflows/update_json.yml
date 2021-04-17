@@ -1,5 +1,8 @@
 name: update_json
 on:
+  push:
+    branches:
+      - "*"
   schedule:
     - cron: "0 * * * *"
 
@@ -13,7 +16,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Update json file
         run: bash update.sh -xe
+      - name: Check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if git status | grep "nothing to commit"; then echo "false"; else echo "true"; fi)
       - name: Commit and Push
+        if: steps.git-check.outputs.modified == 'true'
         run: |
           git config --global user.name 'Soh Satoh'
           git config --global user.email 'sohsatoh@users.noreply.github.com'
