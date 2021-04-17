@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: |
-          bash some-shell-script-file.sh -xe
+          bash update.sh -xe
       - run: echo "One last message"
