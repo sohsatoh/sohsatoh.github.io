@@ -1,5 +1,7 @@
 name: parse_json
 on:
+  issues:
+    types: [opened, edited, milestoned]
   schedule:
     - cron: "0 * * * *"
 
@@ -7,7 +9,6 @@ jobs:
   download:
     runs-on: ubuntu-latest
     steps:
+      - name: Update
       - uses: actions/checkout@v1
-      - run: |
-          bash update.sh -xe
-      - run: echo "One last message"
+      - run: bash update.sh -xe
