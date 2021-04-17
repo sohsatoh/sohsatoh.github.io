@@ -1,0 +1,13 @@
+name: parse_json
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: |
+          bash some-shell-script-file.sh -xe
+      - run: echo "One last message"
