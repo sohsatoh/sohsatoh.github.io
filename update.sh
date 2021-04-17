@@ -23,7 +23,7 @@ while read -d $'\0' file; do
   file=$(echo $file | sed -e "s/.\///g")
   hash=($(shasum -a 256 ${file}))
   echo ${hash}
-  CONTENTS+="\"${file}\": \"${hash}\",${LF}    "
+  CONTENTS+="\"${file}\"\: \"${hash}\",${LF}    "
 done < <(find . -mindepth 1 -maxdepth 1 -print0)
 
 cd ../..
@@ -34,6 +34,6 @@ printf '{
   "sha256":[
     %s
   ]
-}' "${VERSION}" "${CONTENTS}" >./jbupdatechecker/taurine.json
+}' "\"${VERSION}\"" "${CONTENTS}" >./jbupdatechecker/taurine.json
 
 exit 0
