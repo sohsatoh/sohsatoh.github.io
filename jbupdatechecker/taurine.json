@@ -1,9 +1,6 @@
 {
-	"name": "Test",
-	"sha256": {
-		"amfidebilitate": "3d0f86192547f3c850f58584a1cf25b95f3e1c47bd4cce4667cbecb2a09e9a28",
-		"jailbreakd": "af9e895aebb0c8c1cbb5fffa8b79c3cab03146503eb83d1f63ddf00bd6ff7b5c",
-		"pspawn_payload.dylib": "0bd119322c78910a93be391c6e2512bff12514d94393aae0b7213dfa9168b8a2",
-		"pspawn_payload-stg2.dylib": "f21f7603243605c326e6f6c70c3f05e86810034514bd412157064d8837d767e1",
- 	}
+  "name": Taurine 1.0.4 [Release],
+  "sha256":[
+    
+  ]
 }
