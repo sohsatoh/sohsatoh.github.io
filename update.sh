@@ -26,14 +26,14 @@ while read -d $'\0' file; do
   CONTENTS+="\"${file}\": \"${hash}\",${LF}    "
 done < <(find . -mindepth 1 -maxdepth 1 -print0)
 
+cd ../..
+rm -rf test
+
 printf '{
   "name": %s,
   "sha256":[
     %s
   ]
-}' "${VERSION}" "${CONTENTS}"
+}' "${VERSION}" "${CONTENTS}" >./jbupdatechecker/taurine.json
 
-cd ../..
-rm -rf test
-
-pwd
+exit 0
