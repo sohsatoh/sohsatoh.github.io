@@ -1,14 +1,22 @@
 #!/bin/bash
 
+LF=$'\n'
+
 mkdir test
 cd test
 
 curl -O "https://repo.theodyssey.dev/otas/taurine-base.json"
-VERSION=$(cat taurine-base.json | jq -r '.name' | sed -e "s/ \[.*\]//")
+NAME=$(cat taurine-base.json | jq -r '.name' | sed -e "s/ \[.*\]//")
 URL=$(cat taurine-base.json | jq -r '.download')
 
-echo ${VERSION}
+curl -O "https://taurine.app/altstore/taurinestore.json"
+IPA=$(cat taurinestore.json | jq -r '.apps[].downloadURL')
+DESCRIPTION=$(cat taurinestore.json | jq -r '.apps[].versionDescription' | perl -pe 's/\n/\\n/g')
+
+echo ${NAME}
 echo ${URL}
+echo ${IPA}
+echo ${DESCRIPTION}
 
 mkdir files
 curl ${URL} | tar zx -C files
@@ -16,10 +24,8 @@ curl ${URL} | tar zx -C files
 cd files
 
 CONTENTS=""
-LF=$'\n'
 
 while read -d $'\0' file; do
-  # CONTENTS = NULL
   file=$(echo $file | sed -e "s/\.\///")
   hash=($(shasum -a 256 ${file}))
   echo ${hash}
@@ -33,7 +39,9 @@ printf '{
   "name": %s,
   "sha256":{
     %s
-  }
-}' "\"${VERSION}\"" "${CONTENTS}" >./jbupdatechecker/taurine.json
+  },
+  "ipaURL": %s,
+  "description": %s
+}' "\"${NAME}\"" "${CONTENTS}" "\"${IPA}\"" "\"${DESCRIPTION}\"" >./jbupdatechecker/taurine.json
 
 exit 0

@@ -6,5 +6,7 @@
     "amfidebilitate": "3d0f86192547f3c850f58584a1cf25b95f3e1c47bd4cce4667cbecb2a09e9a28",
     "pspawn_payload.dylib": "0bd119322c78910a93be391c6e2512bff12514d94393aae0b7213dfa9168b8a2",
     
-  }
+  },
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.4/Taurine-1.0.4.ipa",
+  "description": "- Improves battery life\n- Fixes hangs when renaming certain tweak dylibs\n- Fixes userspace reboot failing for certain users\n- Fixes full system hangs for certain users\n"
 }
