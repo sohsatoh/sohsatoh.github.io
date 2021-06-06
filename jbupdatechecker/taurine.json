@@ -1,12 +1,12 @@
 {
-  "name": "Taurine 1.0.4",
+  "name": "Taurine 1.0.5",
   "sha256":{
-    "jailbreakd": "af9e895aebb0c8c1cbb5fffa8b79c3cab03146503eb83d1f63ddf00bd6ff7b5c",
-    "pspawn_payload-stg2.dylib": "f21f7603243605c326e6f6c70c3f05e86810034514bd412157064d8837d767e1",
-    "amfidebilitate": "3d0f86192547f3c850f58584a1cf25b95f3e1c47bd4cce4667cbecb2a09e9a28",
-    "pspawn_payload.dylib": "0bd119322c78910a93be391c6e2512bff12514d94393aae0b7213dfa9168b8a2",
+    "jailbreakd": "9010cdafb72cf73cae4ca1a00765245928542335f35ed752c992b9f80b99d8b0",
+    "pspawn_payload-stg2.dylib": "cedbc0b2c96dc22dc727064bfc80cbf62fc6746b9226ff11d105fa57fb471902",
+    "amfidebilitate": "a4dbdc5f5c9b9363c71529d37bbbb40c85c2f4a5d6a9cc389ac7d86864f4ae25",
+    "pspawn_payload.dylib": "c8737ee006db17bcf0a926154acf069126a98204fb51dc30504ba2c0896a4da8",
     
   },
-  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.4/Taurine-1.0.4.ipa",
-  "description": "- Improves battery life\n- Fixes hangs when renaming certain tweak dylibs\n- Fixes userspace reboot failing for certain users\n- Fixes full system hangs for certain users\n"
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.5/Taurine-1.0.5.ipa",
+  "description": "- Applies a fix for amfid panics so that it should happen less often\n- BSODs dump info about the BSOD to /.last_bsod\n- Creating /.verbose_bsod will show a verbose BSOD instead\n- SpringBoard alert when tweaks are disabled (either in case of a BSOD or when they're disabled manually)\n"
 }
