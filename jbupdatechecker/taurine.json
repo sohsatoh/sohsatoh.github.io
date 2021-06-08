@@ -7,6 +7,6 @@
     "pspawn_payload.dylib": "c8737ee006db17bcf0a926154acf069126a98204fb51dc30504ba2c0896a4da8",
     
   },
-  "ipaURL": "",
-  "description": ""
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.5/Taurine-1.0.5.ipa",
+  "description": "- Applies a fix for amfid panics so that it should happen less often\n- BSODs dump info about the BSOD to /.last_bsod\n- Creating /.verbose_bsod will show a verbose BSOD instead\n- SpringBoard alert when tweaks are disabled (either in case of a BSOD or when they're disabled manually)\n"
 }
