@@ -1,12 +1,12 @@
 {
-  "name": "Taurine 1.0.5",
+  "name": "Taurine 1.0.6",
   "sha256":{
-    "jailbreakd": "9010cdafb72cf73cae4ca1a00765245928542335f35ed752c992b9f80b99d8b0",
-    "pspawn_payload-stg2.dylib": "cedbc0b2c96dc22dc727064bfc80cbf62fc6746b9226ff11d105fa57fb471902",
-    "amfidebilitate": "a4dbdc5f5c9b9363c71529d37bbbb40c85c2f4a5d6a9cc389ac7d86864f4ae25",
-    "pspawn_payload.dylib": "c8737ee006db17bcf0a926154acf069126a98204fb51dc30504ba2c0896a4da8",
+    "jailbreakd": "7533d06fa8409f41e556649ea87ff621252ffacc6e86e37ddd7f863115ed176c",
+    "pspawn_payload-stg2.dylib": "a83ec7e670bfe1269b12f7f38ede163746e062475de79f8ee5adb04f48afb577",
+    "amfidebilitate": "3fc5f42958902759aa01ac09e2245404b6ef3096e79d62c5c5bb56e84e952ac8",
+    "pspawn_payload.dylib": "7cd81c28a6c6ada504ae42011aa346d48dd7c6e460444226a9d3c692171935db",
     
   },
-  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.5/Taurine-1.0.5.ipa",
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.6/Taurine-1.0.6.ipa",
   "description": "- Applies a fix for amfid panics so that it should happen less often\n- BSODs dump info about the BSOD to /.last_bsod\n- Creating /.verbose_bsod will show a verbose BSOD instead\n- SpringBoard alert when tweaks are disabled (either in case of a BSOD or when they're disabled manually)\n"
 }
