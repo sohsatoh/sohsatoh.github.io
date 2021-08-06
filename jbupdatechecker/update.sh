@@ -6,7 +6,7 @@ mkdir test
 cd test
 
 curl -O "https://repo.theodyssey.dev/otas/taurine-base.json"
-NAME=$(cat taurine-base.json | jq -r '.name' | sed -e "s/ \[.*\]//")
+NAME=$(cat taurine-base.json | jq -r '.name')
 URL=$(cat taurine-base.json | jq -r '.download')
 
 curl -O "https://taurine.app/altstore/taurinestore.json"
