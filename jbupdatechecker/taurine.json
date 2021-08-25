@@ -1,10 +1,6 @@
 {
-  "name": "Taurine 1.0.7",
+  "name": "Update jbupdate to get Taurine 1.1.0",
   "sha256":{
-    "jailbreakd": "f46549f206e19200f6f1951450a2ac5866dbd7c0e1f18358d6131cafc8a8790d",
-    "pspawn_payload-stg2.dylib": "aff186e4e1fcd9b1ae45abd5b2403aac0ff15b3ddca5b2964979566db45b1f49",
-    "amfidebilitate": "d7bffce66f690d488a70e191cde8087fd9263b6cb578853963e94b0ca3470844",
-    "pspawn_payload.dylib": "e014c6f262b532b521a87cf4720f31e7cbe42933c921923d542b8a97f10986d7",
     
   },
   "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.7/Taurine-1.0.7.ipa",
