@@ -5,7 +5,7 @@ LF=$'\n'
 mkdir test
 cd test
 
-curl -O "https://repo.theodyssey.dev/otas/taurine-base.json"
+curl -O "https://repo.theodyssey.dev/otas/taurine-base-v2.json"
 NAME=$(cat taurine-base.json | jq -r '.name')
 URL=$(cat taurine-base.json | jq -r '.download')
 
