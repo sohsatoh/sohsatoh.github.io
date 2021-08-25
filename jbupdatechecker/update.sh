@@ -6,8 +6,8 @@ mkdir test
 cd test
 
 curl -O "https://repo.theodyssey.dev/otas/taurine-base-v2.json"
-NAME=$(cat taurine-base.json | jq -r '.name')
-URL=$(cat taurine-base.json | jq -r '.download')
+NAME=$(cat taurine-base-v2.json | jq -r '.name')
+URL=$(cat taurine-base-v2.json | jq -r '.download')
 
 curl -O "https://taurine.app/altstore/taurinestore.json"
 IPA=$(cat taurinestore.json | jq -r '.apps[].downloadURL')
