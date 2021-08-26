@@ -9,9 +9,9 @@ curl -O "https://repo.theodyssey.dev/otas/taurine-base-v2.json"
 NAME=$(cat taurine-base-v2.json | jq -r '.name')
 URL=$(cat taurine-base-v2.json | jq -r '.download')
 
-curl -O "https://taurine.app/altstore/taurinestore.json"
-IPA=$(cat taurinestore.json | jq -r '.apps[].downloadURL')
-DESCRIPTION=$(cat taurinestore.json | jq -r '.apps[].versionDescription' | perl -pe 's/\n/\\n/g')
+curl -O "https://api.github.com/repos/Odyssey-Team/Taurine/releases/latest"
+IPA=$(cat latest | jq -r '.["assets"][0]["browser_download_url"]')
+DESCRIPTION=$(cat latest | jq '.["body"]' | perl -pe 's/\\r//g')
 
 echo ${NAME}
 echo ${URL}
@@ -42,6 +42,6 @@ printf '{
   },
   "ipaURL": %s,
   "description": %s
-}' "\"${NAME}\"" "${CONTENTS}" "\"${IPA}\"" "\"${DESCRIPTION}\"" >./jbupdatechecker/taurine.json
+}' "\"${NAME}\"" "${CONTENTS}" "\"${IPA}\"" "${DESCRIPTION}" >./jbupdatechecker/taurine.json
 
 exit 0
