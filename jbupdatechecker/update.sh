@@ -18,7 +18,7 @@ echo ${URL}
 echo ${IPA}
 echo ${DESCRIPTION}
 
-if [ "${URL}" == "null" ] || [ "${DESCRIPTION}" == "null"]; then
+if [ "${URL}" == "null" -o "${DESCRIPTION}" == "null" ]; then
   exit 1
 fi
 
