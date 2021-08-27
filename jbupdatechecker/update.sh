@@ -18,6 +18,10 @@ echo ${URL}
 echo ${IPA}
 echo ${DESCRIPTION}
 
+if [ "${URL}" == "null" ] || [ "${DESCRIPTION}" == "null"]; then
+  exit 1
+fi
+
 mkdir files
 curl ${URL} | tar zx -C files
 
