@@ -19,7 +19,8 @@ echo ${IPA}
 echo ${DESCRIPTION}
 
 if [ "${URL}" == "null" -o "${DESCRIPTION}" == "null" ]; then
-  exit 1
+  cat latest
+  exit 0
 fi
 
 mkdir files
