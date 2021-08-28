@@ -25,9 +25,8 @@ if [ "${URL}" == "null" -o "${DESCRIPTION}" == "null" ]; then
 fi
 
 mkdir files
-curl ${URL} | tar zx -C files
-
 cd files
+curl ${URL} | tar xv
 
 CONTENTS=""
 
