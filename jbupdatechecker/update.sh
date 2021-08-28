@@ -20,6 +20,7 @@ echo ${DESCRIPTION}
 
 if [ "${URL}" == "null" -o "${DESCRIPTION}" == "null" ]; then
   cat latest
+  rm -rf ../test
   exit 0
 fi
 
