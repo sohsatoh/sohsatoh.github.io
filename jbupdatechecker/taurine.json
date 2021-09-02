@@ -8,5 +8,5 @@
     
   },
   "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.0/Taurine-1.1.0.ipa",
-  "description": "1. Adds a patch to fix the boot loop issue in stock iOS (the /var corruption that previously would require users to wait for the next BSOD to use startup repair)\n2. Adds battery level indicator to recovery UI\n3. Increases AMFI timeout so there's less BSODs on older/slower devices\n4. Adds support for custom in-app themes"
+  "description": "* Adds a patch to fix the boot loop issue in stock iOS (the /var corruption that previously would require users to wait for the next BSOD to use startup repair)\n* Adds battery level indicator to recovery UI\n* Increases AMFI timeout so there's less BSODs on older/slower devices\n* Adds support for custom in-app themes"
 }
