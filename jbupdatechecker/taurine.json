@@ -1,8 +1,8 @@
 {
   "name": "Taurine 1.1.0",
   "sha256":{
-    "pspawn_payload.dylib": "dd2128c0333eb5fec6102e9af69ed2cf9df9d21a4727284aa11202df456b6e1b",
     "pspawn_payload-stg2.dylib": "eedb566eeca7700fdab6ffc739b004c3096e547a0bb4a574d0213abf6e4f6889",
+    "pspawn_payload.dylib": "dd2128c0333eb5fec6102e9af69ed2cf9df9d21a4727284aa11202df456b6e1b",
     "jailbreakd": "7c1835234927b730f95aa4fcadf227b71888d8bc8ce58d64deed17ddae6be0a9",
     "amfidebilitate": "83088609860a584ff7835131b745dc76f22dc57ffff534c77ad5dea60f9bd7ac",
     
