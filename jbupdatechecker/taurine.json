@@ -7,6 +7,6 @@
     "amfidebilitate": "83088609860a584ff7835131b745dc76f22dc57ffff534c77ad5dea60f9bd7ac",
     
   },
-  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.0/Taurine-1.1.0.ipa",
-  "description": "* Adds a patch to fix the boot loop issue in stock iOS (the /var corruption that previously would require users to wait for the next BSOD to use startup repair)\n* Adds battery level indicator to recovery UI\n* Increases AMFI timeout so there's less BSODs on older/slower devices\n* Adds support for custom in-app themes"
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa",
+  "description": "- Fixes issues with injection into cfprefsd\n- Re-enables tweak injection into cfprefsd\n- Reduces memory usage and improves performance system-wide\n"
 }
