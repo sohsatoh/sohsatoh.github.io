@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: min;
+    src: url('../elements/min2.eof');
+    src: local('min'),
+        url('../elements/min2.otf') format('opentype');
+}
+
+html {
+	  height: 100%;
+overflow: hidden;
+}
+
+body {
+	position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+height:100%;
+	  background-color: #F7F5F5;
+    margin: 0;
+	font-family: min, "Hiragino Kaku Gothic ProN", Meiryo, "MS PGothic", Verdana, sans-serif;
+	     webkit-text-stroke: 0.6px; 
+     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
+	
+}
+
+a {
+	display: inline-block;
+	color:#000;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+a.own {display: inline-block;
+	color:#000;
+	text-decoration: none;}
+
+a.animsition-link:hover {
+
+-webkit-transform: scale(1.15,1.15);
+    -moz-transform: scale(1.15,1.15);
+    -o-transform: scale(1.15,1.15);
+    -ms-transform: scale(1.15,1.15);
+    transform: scale(1.15,1.15);
+}
+
+#wrap {
+	
+	overflow: hidden;
+}
+
+
+#main {
+  float: right;
+  width: 100%;
+  margin: 0 0 0 -250px;
+}
+
+
+
+
+#side {
+	position:absolute;
+	height:100%;
+  float: left;
+  width: 18.5%;
+    max-width:250px;
+  min-width:200px;
+  padding-top:20px;
+  background:#fff;
+  color:#000;
+  font-size:1em;
+padding-bottom: 32768px;
+margin-bottom: -32768px;
+z-index:5;
+overflow-y: hidden;
+
+ }
+ 
+ li{
+	 margin:40px 0px 30px 10px;
+ }
+ 
+#content {
+  margin: 35px 0 0 270px;
+}
+
+.logo {
+display: block; /* ブロックレベルに変更 */
+    margin: 0 auto;
+	padding-top:15px;
+		padding-bottom:20px;
+}
+
+
+h2#title {
+	color: #474747;;
+	 text-shadow:-1px 1px 0 rgba(255,255,255, 1);
+	text-align:center;
+	padding-bottom:20px;
+	margin-left:-3%;
+	border-bottom: 1px solid #949494;
+}
+
+p {
+	margin-top:5px;
+	text-align:center;
+	 line-height: 2em;
+color: #626262;
+ }
+ 
+ #sign {
+	float:right;
+	width:120px;
+	margin-right:15%;
+}
+
+p#text {
+	margin-top:3%;
+	margin-bottom:5%;
+}
+
+span.bold {font-weight: 900; }

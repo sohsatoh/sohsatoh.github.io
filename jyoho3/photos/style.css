@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: min;
+    src: url('../elements/min2.eof');
+    src: local('min'),
+        url('../elements/min2.otf') format('opentype');
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+	  height: 100%;
+	  background-color: #f7f5f5;
+     position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+	font-family:min, "Hiragino Kaku Gothic ProN", Meiryo, "MS PGothic", Verdana, sans-serif;
+	     webkit-text-stroke: 0.6px; 
+     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
+}
+
+a {
+	
+	display: inline-block;
+	color:#000;
+	text-decoration: none;
+}
+
+a.animsition-link {
+	display: inline-block;
+	color:#000;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+a.animsition-link:hover {
+-webkit-transform: scale(1.15,1.15);
+    -moz-transform: scale(1.15,1.15);
+    -o-transform: scale(1.15,1.15);
+    -ms-transform: scale(1.15,1.15);
+    transform: scale(1.15,1.15);
+}
+
+#wrap {
+	overflow: hidden;
+	height:auto;
+}
+#main {
+  float: right;
+  width: 100%;
+  margin: 0 0 0 -250px;
+}
+#side {
+  float: left;
+  width: 18.5%;
+    max-width:250px;
+  min-width:200px;
+  min-height: 566px;
+  padding-top:20px;
+  background:#fff;
+  color:#000;
+  font-size:1em;
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+
+ }
+ 
+ li{
+	 margin:40px 0px 30px 10px;
+ }
+ 
+#content {
+  margin: 30px 0 0 270px;
+}
+
+.logo {
+display: block; /* ブロックレベルに変更 */
+    margin: 0 auto;
+	padding-top:15px;
+	padding-bottom:20px;
+}
+
+h2#title {
+	border-bottom: 1px solid #949494;
+}
+
+p { line-height: 2em }
+
+img.images {
+	 float: left;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+span.bold {font-weight: 900; }
