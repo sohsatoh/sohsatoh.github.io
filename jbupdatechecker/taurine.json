@@ -7,6 +7,6 @@
     "amfidebilitate": "83088609860a584ff7835131b745dc76f22dc57ffff534c77ad5dea60f9bd7ac",
     
   },
-  "ipaURL": "",
-  "description": 
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa",
+  "description": "- Fixes issues with injection into cfprefsd\n- Re-enables tweak injection into cfprefsd\n- Reduces memory usage and improves performance system-wide\n"
 }
