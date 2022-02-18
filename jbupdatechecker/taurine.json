@@ -1,10 +1,10 @@
 {
-  "name": "Taurine 1.1.1 [Release]",
+  "name": "Taurine 1.1.2 [Release]",
   "sha256":{
-    "amfidebilitate": "83088609860a584ff7835131b745dc76f22dc57ffff534c77ad5dea60f9bd7ac",
-    "jailbreakd": "93d3afac215d191503afcbcf6a7db084ccebea20721068064c5cf698532033cd",
-    "pspawn_payload.dylib": "2710d9331be979f7b2b84c28bf5737eec641fe0964ee3c61d1fd3b738378735f",
-    "pspawn_payload-stg2.dylib": "3948a0843e9ee5ed71f67f9b2c53d91c7615ea3fded503bb3a84684e8e6eff75",
+    "amfidebilitate": "12a5143387708543baf9eb1ee8a36cd41ec55a8832e33b7410240332e974ccc3",
+    "jailbreakd": "14bdf110876c29fb3d750c816e2c33e9f20aac7993ec80ad7caca3556c9d6697",
+    "pspawn_payload.dylib": "0a768cd8f5103140f12a73f698b7990c6514e14812bd905567e11e7a08c2f4ce",
+    "pspawn_payload-stg2.dylib": "22fa106a2cb221858655ddfaaff371525f0874e91c8b0fe0545dd3b8b5b4afe5",
     
   },
   "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa",
