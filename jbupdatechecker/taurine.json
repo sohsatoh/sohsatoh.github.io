@@ -7,6 +7,6 @@
     "pspawn_payload-stg2.dylib": "22fa106a2cb221858655ddfaaff371525f0874e91c8b0fe0545dd3b8b5b4afe5",
     
   },
-  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa",
-  "description": "- Fixes issues with injection into cfprefsd\n- Re-enables tweak injection into cfprefsd\n- Reduces memory usage and improves performance system-wide\n"
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.2/Taurine-1.1.2.ipa",
+  "description": "* Update Sileo to 2.3\n* Replace Packix with Havoc as default repo\n* Add stability Improvement from Odyssey 1.4.1"
 }
