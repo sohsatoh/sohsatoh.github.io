@@ -2,8 +2,8 @@
   "name": "Taurine 1.1.3 [Release]",
   "sha256":{
     "pspawn_payload.dylib": "f1234c42e1ba68c2654c4312f90110cbbeacee5f12a478ea6b231e4514d73023",
-    "amfidebilitate": "d03fbd537a03690a0ac83a584ecabe2c1d55029ef0fa2061829abb2da6704816",
     "pspawn_payload-stg2.dylib": "58010a932b87842082667ced2939bed58b7f51b6ee2d7144b363d9138b05b380",
+    "amfidebilitate": "d03fbd537a03690a0ac83a584ecabe2c1d55029ef0fa2061829abb2da6704816",
     "jailbreakd": "7e74ccfab2e323c9f979652efe94c114c6a32881259ceb02e746ae76f0e66cc9",
     
   },
