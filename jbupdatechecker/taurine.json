@@ -7,6 +7,6 @@
     "pspawn_payload-stg2.dylib": "3b3da753e9d1c6f48eed1a6f414d325c29acc6ab6288f487ae300acf7d073b86",
     
   },
-  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.4/Taurine-1.1.4.ipa",
-  "description": "- Adds support for taurine-permanent (should work now on first try)\n- Backports Swift patchfinder from \\<currently unnamed iOS 15 jailbreak\\>\n- Backports IMG4 parser from \\<currently unnamed iOS 15 jailbreak\\> (removes img4tool and fixes Windows Defender false positive)\n- Adds support for iOS 15 DER entitlements to jailbreakd\n- Adds support for iOS 15.1 Hash Agility to jailbreakd"
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.5/Taurine-1.1.5.ipa",
+  "description": "- Fixed arm64e on 14.2 and 14.3"
 }
