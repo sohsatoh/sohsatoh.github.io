@@ -7,6 +7,6 @@
     "jailbreakd": "1fd1af4b1f155a0d7ae49046e6cad411af9b0cb8af3e207cc10aa4d3635d44f6",
     
   },
-  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.5/Taurine-1.1.5.ipa",
-  "description": "- Fixed arm64e on 14.2 and 14.3"
+  "ipaURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
+  "description": "- Backports DER entitlement fixes from Taurine15\n- Backports codesignature fixes from Taurine15\n- Backports various other fixes from Taurine15\n"
 }
